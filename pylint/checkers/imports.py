@@ -691,6 +691,7 @@ class ImportsChecker(BaseChecker):
 
         Imports must follow this order: standard, 3rd party, local
         """
+        return [],[],[]
         std_imports = []
         third_party_imports = []
         first_party_imports = []
