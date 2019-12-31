@@ -31,7 +31,7 @@ if dev_version is not None:
 
 install_requires = [
     "astroid>=2.3.0,<=2.5",
-    "isort>=4.2.5,<5",
+    "isort==4.99.0",
     "mccabe>=0.6,<0.7",
     "toml>=0.7.1",
 ]
